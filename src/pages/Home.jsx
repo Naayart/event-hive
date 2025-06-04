@@ -50,7 +50,7 @@ export default function Home() {
                 </h1>
 
                 <div className="flex flex-row space-x-2 w-[40%]">
-                    <div className="bg-[#687C940D] px-8 py-8 rounded-sm ">
+                    <div className="bg-[#687C940D] px-8 py-8 rounded-sm border-none">
                     <select name="day" id="day">
                         <option selected disabled>Weekday</option>
                         <option value="monday">Monday</option>

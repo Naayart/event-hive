@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router"
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Home from "./pages/Home";
-import ViewEvent from "./Pages/ViewEvent";
+import ViewEvent from "./pages/ViewEvent";
 import ViewCollege from "./pages/ViewCollege";
 import CreateEvent from "./pages/CreateEvent";
 import NotFound from "./pages/NotFound";
