@@ -43,13 +43,44 @@ export default function Home() {
         </form>
         </section>
         <section>
-            <div>
-                <h1>
-                    <span>Upcoming</span>
-                    <span>Events</span>
+            <div className="flex flex-row justify-between mt-20">
+                <h1 className="px-16 py-8 space-x-2">
+                    <span className="text-black font-bold text-2xl">Upcoming</span>
+                    <span className="text-[#7848F4] font-bold text-2xl">Events</span>
                 </h1>
 
-                <label htmlFor=""></label>
+                <div className="flex flex-row space-x-2 w-[40%]">
+                    <div className="bg-[#687C940D] px-8 py-8 rounded-sm ">
+                    <select name="day" id="day">
+                        <option selected disabled>Weekday</option>
+                        <option value="monday">Monday</option>
+                        <option value="tuesday">Tuesday</option>
+                        <option value="wednesday">Wednesday</option>
+                        <option value="thursday">Thursday</option>
+                        <option value="friday">Friday</option>
+                        <option value="saturday">Saturday</option>
+                        <option value="sunday">Sunday</option>
+                    </select>
+                </div>
+
+                <div className="bg-[#687C940D] px-8 py-8">
+                    <select name="event-type" id="event-type">
+                        <option selected disabled>Event type</option>
+                        <option value="drama">Drama</option>
+                        <option value="tech">Tech</option>
+                        <option value="Memorial">Memorial</option>
+                    </select>
+                </div>
+
+                <div className="bg-[#687C940D] px-8 py-8">
+                    <select name="category" id="catergory">
+                        <option selected disabled>Any Category</option>
+                        <option value="drama">Colorful</option>
+                        <option value="tech">Happy</option>
+                        <option value="Memorial">Sad</option>
+                    </select>
+                </div>
+                </div>
             </div>
 
             <div className="grid grid-cols-3 gap-5 p-20">
