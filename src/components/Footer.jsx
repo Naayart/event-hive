@@ -25,12 +25,14 @@ function Footer() {
           <button className="hover:bg-[#7848F4] hover:rounded-sm hover:px-2 hover:py-1">French</button>
           <button className="hover:bg-[#7848F4] hover:rounded-sm hover:px-2 hover:py-1">Hindi</button>
         </div>
+
         <div className="flex flex-row space-x-3 pl-30 space-y-3">
           <Linkedin />
           <Instagram />
           <Facebook />
         </div>
-        <p>Non Copyrighted© 2025 Upload by EventHive</p>
+        
+        <p>Non Copyrighted © 2025 Upload by EventHive</p>
       </div>
     </footer>
   );
